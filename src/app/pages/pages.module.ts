@@ -12,6 +12,7 @@ import { SharedModule } from '../shared/share.module';
 import { PAGES_ROUTES } from './pages.routers';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficodonaComponent } from '../components/graficodona/graficodona.component';
+import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import { GraficodonaComponent } from '../components/graficodona/graficodona.comp
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficodonaComponent
+        GraficodonaComponent,
+        AccoutSettingsComponent
     ],
     exports: [
         DashboardComponent,

@@ -1,8 +1,6 @@
 /*
-Template Name: Admin Pro Admin
-Author: Wrappixel
-Email: niravjoshi87@gmail.com
-File: js
+Template Name: Ahorro Plus
+
 */
 $(function() {
     "use strict";
@@ -65,9 +63,10 @@ $(function() {
                 return (value);
             },
             showGrid: true
-        }, plugins: [
-        	Chartist.plugins.tooltip()
-      	],
+        },
+        plugins: [
+            Chartist.plugins.tooltip()
+        ],
     }).on('draw', function(data) {
         if (data.type === 'bar') {
             data.element.attr({
