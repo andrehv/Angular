@@ -33,7 +33,6 @@ constructor( @Inject(DOCUMENT) private _document ) {
       // console.log( 'Usando valores por defecto' );
       this.aplicarTema( this.ajustes.tema );
     }
-
   }
 
   aplicarTema( tema: string ) {

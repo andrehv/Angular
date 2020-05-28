@@ -14,6 +14,7 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 import { GraficodonaComponent } from '../components/graficodona/graficodona.component';
 import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
 
+
 @NgModule({
     declarations: [
         PagesComponent,

@@ -8,6 +8,8 @@ import { AccoutSettingsComponent } from './accout-settings/accout-settings.compo
 
 
 
+
+
 const pagesRoutes: Routes = [
     {
         path: '',
